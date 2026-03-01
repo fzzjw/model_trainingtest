@@ -1,0 +1,21 @@
+
+
+
+
+# this is for export, this is a command.
+
+
+# first of all , cd into serve
+cd autodl-tmp/serve
+
+# python command
+
+python -m MuTILs_Panoptic.mutils_panoptic.export_01042026 \
+  --ckpt=MuTILs_Panoptic/results/mutils/models/mutils_05122025/fold_4/mutils_05122025.pt \
+  --fold=1 \
+  --save-png \
+  --outdir=export_geojson_fold1
+
+
+
+python -m MuTILs_Panoptic.mutils_panoptic.export_01042026 --ckpt MuTILs_Panoptic/results/mutils/models/mutils_05122025/fold_1/mutils_05122025.pt --fold 1 --save-png --outdir export_geojson_fold1
